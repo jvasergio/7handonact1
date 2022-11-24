@@ -61,6 +61,8 @@ public class RunAnimal {
             d.sleep();
             d.makeSound();
         }
-        
+        else {
+            System.out.println("Invalid input.");
+        }
     }
 }
