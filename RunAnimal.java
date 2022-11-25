@@ -16,7 +16,7 @@ class Bird extends Animal{
         System.out.println("Tweet tweet");
     }
 }
-class Cat{
+class Cat extends Animal{
     void eat(){
         System.out.print("Birds love to eat fish and ");
     }
@@ -27,7 +27,7 @@ class Cat{
         System.out.println("Meow meow");
     }
 }
-class Dog{
+class Cat extends Animal{
     void eat(){
         System.out.print("Birds love to eat meat and ");
     }
