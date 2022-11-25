@@ -18,7 +18,7 @@ class Bird extends Animal{
 }
 class Cat extends Animal{
     void eat(){
-        System.out.print("Birds love to eat fish and ");
+        System.out.print("Cats love to eat fish and ");
     }
     void sleep(){
         System.out.println("sleep for 12-16 hours a day. ");
@@ -27,9 +27,9 @@ class Cat extends Animal{
         System.out.println("Meow meow");
     }
 }
-class Cat extends Animal{
+class Dog extends Animal{
     void eat(){
-        System.out.print("Birds love to eat meat and ");
+        System.out.print("Dogs love to eat meat and ");
     }
     void sleep(){
         System.out.println("sleep for 12-14 hours a day. ");
